@@ -15,14 +15,16 @@ recent activity is always visible first.
    modeling assumption is reasonable in the considered scenario, so that the
    premise of the subsequent analysis is well grounded.
 
-2. **Investigate a region-wise negative-definite quadratic approximation
-   beyond the first null of the sinc main lobe.**
-   Examine whether a globally negative-definite quadratic approximation holds
-   for the portion of the sinc function outside the main lobe (i.e., beyond
-   the first null). The goal is to determine whether **unimodality can be
-   established without relying on a single global approximation**, by
-   combining a localized argument inside the main lobe with the
-   negative-definite behavior of the side-lobe region.
+2. **Investigate a negative-definite quadratic approximation restricted to
+   the main-lobe interior of the sinc function.**
+   Examine whether a negative-definite quadratic approximation holds on the
+   strictly-positive portion of the sinc within the main-lobe bandwidth
+   (i.e., the central lobe between its two bounding zero-crossings, where
+   the function takes positive values). The goal is to determine whether
+   **unimodality can be established without relying on a single global
+   approximation**: a local concavity argument confined to the main lobe,
+   combined with the fact that the side-lobe peaks are strictly below the
+   main-lobe peak, would suffice to conclude unimodality.
 
 3. **Revise and clarify the path-loss exponent term.**
    Update the relevant derivations involving the path-loss exponent and add
